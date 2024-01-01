@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cwlmnjgtssvgu"
-path="res://.godot/imported/tile_0128.png-37108d5889ca6d1eb05feecb27d0864f.ctex"
+uid="uid://bol1lrttrtb3y"
+path="res://.godot/imported/basic_enemy.png-29321723af3eff09f02f23d69ba08fa7.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://kenney_tinydungeon/Tiles/tile_0128.png"
-dest_files=["res://.godot/imported/tile_0128.png-37108d5889ca6d1eb05feecb27d0864f.ctex"]
+source_file="res://scene/game_object/basic_enemy/basic_enemy.png"
+dest_files=["res://.godot/imported/basic_enemy.png-29321723af3eff09f02f23d69ba08fa7.ctex"]
 
 [params]
 
