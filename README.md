@@ -1,0 +1,1 @@
+this project is a part of an online course i took for eduacational purposes about learning godot, game development, and GDscript. it's also a very cool game! non of these assets or game designs are mine
