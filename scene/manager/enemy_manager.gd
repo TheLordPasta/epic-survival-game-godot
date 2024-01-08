@@ -21,5 +21,7 @@ func  on_timer_timeout():
 	
 	#creating the enemy
 	var enemy = basic_enemy_scene.instantiate()
-	get_parent().add_child(enemy)
+	
+	var enteties_layer = get_tree().get_first_node_in_group("enteties_layer")
+	enteties_layer.add_child(enemy)
 	enemy.global_position = spawn_position
