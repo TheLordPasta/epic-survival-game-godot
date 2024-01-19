@@ -3,9 +3,11 @@
 [ext_resource type="Script" path="res://scene/manager/enemy_manager.gd" id="1_3fe6r"]
 [ext_resource type="PackedScene" uid="uid://c48oemupepwv4" path="res://scene/game_object/basic_enemy/basic_enemy.tscn" id="2_6cvaa"]
 
-[node name="EnenyManager" type="Node"]
+[node name="EnenyManager" type="Node" node_paths=PackedStringArray("arena_time_manager")]
 script = ExtResource("1_3fe6r")
 basic_enemy_scene = ExtResource("2_6cvaa")
+arena_time_manager = NodePath("Timer")
 
 [node name="Timer" type="Timer" parent="."]
+one_shot = true
 autostart = true
