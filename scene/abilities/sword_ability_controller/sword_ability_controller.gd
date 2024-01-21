@@ -38,7 +38,7 @@ func on_timer_timeout():
 	
 	#using sword_swing on enemies
 	var sword_instance = sword_ability.instantiate() as SwordAbility
-	var forground_layer = get_tree().get_first_node_in_group("forground_layer")
+	var forground_layer = get_tree().get_first_node_in_group("foreground_layer")
 	forground_layer.add_child(sword_instance)
 	sword_instance.hit_box_component.damage = damage
 	
