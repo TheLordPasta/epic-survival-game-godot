@@ -46,4 +46,4 @@ y_sort_enabled = true
 unique_name_in_owner = true
 position = Vector2(502, 353)
 
-[node name="Forground" type="Node2D" parent="." groups=["forground_layer"]]
+[node name="Foreground" type="Node2D" parent="." groups=["foreground_layer"]]
